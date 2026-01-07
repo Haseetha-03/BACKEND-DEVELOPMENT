@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #afedef;
+  padding: 30px;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form container */
+.form-container {
+  background: #ffffff;
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container button:hover {
+  background: #4338ca;
+}
+
+/* Cards section */
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+/* Individual card */
+.card {
+  background: rgb(237, 195, 205);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+/* Buttons inside card */
+.card button {
+  margin: 5px 4px 0 0;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.view-btn {
+  background: #175a1d;
+  color: white;
+}
+
+.edit-btn {
+  background: #3f8a91;
+  color: white;
+}
+
+.delete-btn {
+  background: #a43488;
+  color: white;
+}
+
+.card button:hover {
+  opacity: 0.9;
+}
